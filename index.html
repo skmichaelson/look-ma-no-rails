@@ -32,7 +32,7 @@
 			<li><a href="mailto:Sarah.Michaelson@gmail.com">Email</a></li>
     		<li><a href="https://github.com/skmichaelson">Github</a></li>
     		<li><a href="http://www.linkedin.com/in/skmichaelson">LinkedIn</a></li>
-    		<li><a href="#resume"></a>Resume</li>
+    		<li><span class="resume">Resume</span></li>
 		</ul>
 	</header>
 
@@ -50,14 +50,18 @@
 			border: 1px solid black;
 			width: 650px;
 		}
+
+		#sidebar span {
+			border: 1px solid red;
+		}
 	</style>
 
 		<section id="sidebar">
 			<ul class="group">
-		        <li><a href="#about_me">About Me</a></li>
-		        <li><a href="#projects">Projects</a></li>
-		        <li><a href="#resume">Resume</a></li>
-		        <li><a href="#contact">Contact</a></li>
+		        <li><span id="about_me">About Me</span></li>
+		        <li><span id="projects">Projects</span></li>
+		        <li><span class="resume">Resume</span></li>
+		        <li><span id="contact">Contact</span></li>
 		    </ul>
 
 		    Barrier!
